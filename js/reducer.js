@@ -18,3 +18,5 @@ function render(){
   let container = document.getElementById('container');
   container.textContent = state.count;
 }
+
+dispatch({type: '@@INIT'})
